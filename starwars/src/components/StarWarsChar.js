@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import ScgRender from './svgRender/SvgRender';
+import React from 'react';
 import SvgRender from './svgRender/SvgRender';
 
 export default function StarWarsChar(props){
-
 
 return(
     <div className="StarWarsChar">

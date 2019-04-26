@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import StarWarsChar from './StarWarsChar';
 import './StarWars.scss'
 export default function StarWarsChars(props){
