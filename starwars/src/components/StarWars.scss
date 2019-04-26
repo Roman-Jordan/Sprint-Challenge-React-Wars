@@ -1,0 +1,26 @@
+*{box-sizing: border-box}
+.StarWarsChars{
+ display:flex;
+ flex-wrap: wrap;
+ .StarWarsChar{
+     width:30%;
+     margin:10px auto;
+     background:rgba(255,255,255,.6);
+     padding:10px;
+     display:flex;
+     flex-direction: row-reverse;
+
+     @media (max-width:500px){
+         
+        width:100%;
+     }
+     @media (max-width:800px){
+         
+        width:40%;
+     }
+
+     .Avatar{
+         margin:auto;
+     }
+ }
+}
